@@ -1,4 +1,4 @@
-from django.shortcuts import render
+﻿from django.shortcuts import render
 
 from django.http import HttpResponse
 
@@ -10,7 +10,7 @@ def helloworldview(request):
     template = "index.html"
 
     people = ["Неля", "Антон", "Алина", "Тимур"
-              "Газиза", "Алан", и "Я"]
+              "Газиза", "Алан", "Я"]
 
     context = {"people": people}    
 
